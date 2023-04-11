@@ -74,18 +74,21 @@ a:active {
 ! Style rules for the header section. 
 */
 
-/* header {
-    background-color: #fafafa;
-    font-family: 'Urbanist', sans-serif;
-    font-size: 16px;
-    font-weight: 300;
-    line-height: 1.6;
-    color: #4a4a4a;
-} */
+header {
+    background-color: #ff44c4;
+    padding: 0.625em;
+    margin: 0.625em;
+    border-bottom: 3px solid #4a4a4a;
+}
 
 /*
 ! Style rules for the main section
 */
+
+main {
+    background-color: black;
+    padding: 0.625em;
+}
 
 .button {
     display: inline-block;
