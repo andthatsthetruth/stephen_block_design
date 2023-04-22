@@ -26,7 +26,12 @@
 <body>
     <header>
         <div class="container">
-            <a href="index.html"><img src="img/icons/SVG/sb_logo_script.svg" alt="Stephen Block Design"></a>
+            <a href="index.html">
+                <picture>
+                    <source srcset="img/icons/SVG/sb_logo_script.svg">
+                    <img class="logo" src="img/icons/SVG/sb_logo_script.svg" alt="Stephen Block Design Logo">
+                </picture>
+            </a>
             <nav>
                 <ul>
                     <li><a href="index.html">Work</a></li>
@@ -46,14 +51,16 @@
                 I made the switch to UX design to make the easier the work of those providers 
                 still working in that system.</p>
             </div>
-            <div>
+            <div id="work">
                 <h2>My Work</h2>
-                <div> <!--!row 01-->
+                <div class="row">
                     <div> <!--!column 01-->
-                        <picture>
-                            <source srcset="img/peregrine/splash_large.jpg" media="(min-width:1200px)">
-                            <a href="peregrine.html"><img src="img/peregrine/splash_small.jpg" alt="Background image"></a>
-                        </picture>
+                        <a href="peregrine.html">
+                            <picture>
+                                <source srcset="img/peregrine/splash_large.jpg">
+                                <img src="img/peregrine/splash_small.jpg" alt="Background image">
+                            </picture>
+                        </a>
                     </div>
                     <div> <!--!column 02-->
                         <h3>Peregrine</h3>

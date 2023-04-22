@@ -15,7 +15,7 @@ Off Black = #171616
 /*
 
 /*
-! Style rules for the body section. 
+! Style rules for BODY. 
 */
 
 body {
@@ -51,10 +51,6 @@ h4 {
     font-weight: 400;
 }
 
-img {
-    width: 100%;
-}
-
 a {
     color: #c6cace ;
     text-decoration: none;
@@ -79,7 +75,7 @@ a:active {
 }
 
 /*
-! Style rules for the header section. 
+! Style rules for HEADER 
 */
 
 header {
@@ -89,13 +85,26 @@ header {
     border-bottom: 3px solid #c6cace;
 }
 
+.logo {
+    max-width: 250px;
+    text-align: center;
+}
+
 /*
-! Style rules for the main section
+! Style rules for MAIN
 */
 
 main {
     background-color:171616;
     padding: 0.625em;
+}
+
+#hero h1 {
+    text-align: center;
+}
+
+.row {
+    margin: 25px 0;
 }
 
 .button {
@@ -121,7 +130,7 @@ main {
 }
 
 /*
-! Style rules for the footer section. 
+! Style rules for FOOTER 
 */
 
 /* footer {
