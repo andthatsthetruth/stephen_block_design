@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 127.91 51.27">
+  <defs>
+    <style>
+      .cls-1 {
+        letter-spacing: -.01em;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #a67212;
+        stroke-miterlimit: 10;
+        stroke-width: 5px;
+      }
+
+      .cls-3 {
+        fill: #c6cace;
+        font-family: Futura-Bold, Futura;
+        font-size: 28.35px;
+        font-weight: 700;
+      }
+
+      .cls-4 {
+        fill: #171616;
+      }
+
+      .cls-5 {
+        fill: #a67212;
+        font-family: BrushScriptMT, 'Brush Script MT';
+        font-size: 27.85px;
+      }
+    </style>
+  </defs>
+  <g id="Layer_2-2" data-name="Layer 2">
+    <g id="SBLOGO">
+      <text class="cls-3" transform="translate(50.59 44.56)"><tspan x="0" y="0" xml:space="preserve">Bl  ck</tspan></text>
+      <rect class="cls-2" x="81.78" y="31.26" width="11.16" height="11.16" rx="1.47" ry="1.47"/>
+      <rect class="cls-4" x="84.04" y="33.53" width="6.64" height="6.64" rx=".85" ry=".85"/>
+      <text class="cls-5" transform="translate(3.46 33.53) rotate(-8.75)"><tspan x="0" y="0">St</tspan><tspan class="cls-1" x="24.95" y="0">e</tspan><tspan x="32.72" y="0">phen</tspan></text>
+    </g>
+  </g>
+</svg>
