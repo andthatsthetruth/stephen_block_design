@@ -133,6 +133,11 @@ main {
 
 .peregrine.img {
     max-width: 300px;
+    margin: 0 35px;
+}
+
+.container.peregrine h2 {
+    color: #a67212
 }
 
 #portrait {
