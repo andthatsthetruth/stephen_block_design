@@ -131,6 +131,10 @@ main {
     text-align: left;
 }
 
+.peregrine.img {
+    max-width: 300px;
+}
+
 #portrait {
     max-width: 250px;
 }
