@@ -231,3 +231,45 @@ footer h2 {
 #call {
     text-decoration: underline;
 }
+
+/*
+!=================================
+!Medium devices (640px and larger)
+!=================================
+*/
+@media only screen and (min-width: 640px) {
+
+    header {
+        text-align: unset;
+    }
+    
+    
+    }
+    
+    
+    /*
+    !=================================
+    !LARGE devices (1024px and larger)
+    !=================================
+    */
+    @media only screen and (min-width: 1024px) {
+    
+    }
+    
+    /*
+    !===================================
+    !X-LARGE devices (1440px and larger)
+    !===================================
+    */
+    @media only screen and (min-width: 1440px) {
+    
+    }
+    
+    /*
+    !=====================================
+    !ULTRAWIDE devices (1920px and larger)
+    !=====================================
+    */
+    @media only screen and (mid-width: 1920px) {
+    
+    }
