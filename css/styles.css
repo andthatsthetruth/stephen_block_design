@@ -144,12 +144,12 @@ main {
     max-width: 250px;
 }
 
-#work {
-    text-align: center;
-}
-
 #discord {
     text-decoration: underline;
+}
+
+#work {
+    text-align: center;
 }
 
 .row {
@@ -169,11 +169,15 @@ main {
     text-align: left;
 }
 
-#view {
+.view-project {
     text-align: left;
 }
 
 #work01 {
+    max-width: 300px;
+}
+
+#work02 {
     max-width: 300px;
 }
 
@@ -254,6 +258,21 @@ footer h2 {
         margin-top: 75px;
     }
     
+    .col-md-6 {
+        width: 50%;
+    }
+
+    [class*="col-"] {
+        float: left;
+    }
+
+    .row::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+
+
     }
     
     
