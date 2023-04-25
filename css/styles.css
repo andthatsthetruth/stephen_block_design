@@ -167,8 +167,8 @@ main {
 
 .project01 {
     display: inline-block;
-    margin-bottom: 25px;
     padding: 25px;
+    margin-bottom: 25px;
     border-radius: 4px;
     background-color: #9ca4a6;
 }
@@ -177,7 +177,7 @@ main {
     display: inline-block;
     padding: 25px;
     border-radius: 4px;
-    background-color: #9ca4a6;
+    background-color: #821515;
 }
 
 .view-project {
@@ -270,20 +270,32 @@ footer h2 {
         float: right;
         margin-top: 75px;
     }
-    
-    .col-md-6 {
-        width: 50%;
+
+    #work h2 {
+        margin-bottom: .67em;
     }
 
-    [class*="col-"] {
-        float: left;
+    .row01 {
+        display: flex;
+        justify-content: space-around;
     }
-/* 
-    .row01::after {
-        content: "";
-        clear: both;
-        display: table;
-    } */
+
+    #project-img01 {
+        max-width: 100%;
+    }
+
+    #project-img02 {
+        max-width: 100%;
+    }
+
+    .project01 {
+        max-width: 45%;
+        margin: unset;
+    }
+
+    .project02 {
+        max-width: 45%;
+    }
 
 
     }
