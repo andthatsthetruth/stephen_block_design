@@ -152,7 +152,7 @@ main {
     text-align: center;
 }
 
-.row {
+.row01 {
     margin: 25px 0;
     padding: 25px;
     display: inline-block;
@@ -161,11 +161,11 @@ main {
     color:#171616;
 }
 
-.row h3 {
+.row01 h3 {
     text-align: left;
 }
 
-.row p {
+.row01 p {
     text-align: left;
 }
 
