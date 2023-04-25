@@ -278,12 +278,12 @@ footer h2 {
     [class*="col-"] {
         float: left;
     }
-
+/* 
     .row01::after {
         content: "";
         clear: both;
         display: table;
-    }
+    } */
 
 
     }
