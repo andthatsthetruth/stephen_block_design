@@ -280,6 +280,10 @@ footer h2 {
         justify-content: space-around;
     }
 
+    #portrait {
+        min-width: 75%;
+    }
+
     #project-img01 {
         max-width: 100%;
     }
