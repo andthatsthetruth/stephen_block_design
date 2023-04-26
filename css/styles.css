@@ -312,6 +312,31 @@ footer h2 {
     */
     @media only screen and (min-width: 1024px) {
     
+    body {
+        font-size: 20px;
+    }
+
+    #hero {
+        max-width: 1000px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+    }
+
+    .row01{
+        display: flex;
+        justify-content: center;
+    }
+
+    .project01 {
+        max-width: 450px;
+        margin-right: 70px;
+    }
+
+    .project02 {
+        max-width: 450px;
+    }
     }
     
     /*
@@ -321,6 +346,24 @@ footer h2 {
     */
     @media only screen and (min-width: 1440px) {
     
+    body {
+        font-size: 24px;
+    }
+
+    .row01{
+        display: flex;
+        justify-content: center;
+    }
+
+    .project01 {
+        max-width: 450px;
+        margin-right: 70px;
+    }
+
+    .project02 {
+        max-width: 450px;
+    }
+
     }
     
     /*
