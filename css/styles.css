@@ -131,7 +131,7 @@ main {
     text-align: left;
 }
 
-.peregrine.img {
+.peregrine.img img {
     max-width: 300px;
     margin: 0 35px;
 }
@@ -301,6 +301,12 @@ footer h2 {
         max-width: 45%;
     }
 
+    .peregrine.img {
+        max-width: 450px;
+        text-align: center;
+        margin: unset;
+        margin: 0 auto;
+    }
 
     }
     
@@ -316,15 +322,13 @@ footer h2 {
         font-size: 20px;
     }
 
-    #hero {
+    .hero {
         max-width: 1000px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+        margin: 0 auto;
         padding: 0;
     }
 
-    .row01{
+    .row01 {
         display: flex;
         justify-content: center;
     }
@@ -337,6 +341,7 @@ footer h2 {
     .project02 {
         max-width: 450px;
     }
+
     }
     
     /*
@@ -365,7 +370,7 @@ footer h2 {
     }
 
     }
-    
+
     /*
     !=====================================
     !ULTRAWIDE devices (1920px and larger)
