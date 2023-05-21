@@ -154,15 +154,15 @@ main {
     text-align: center;
 }
 
-.row01 {
+.row {
     color:#171616;
 }
 
-.row01 h3 {
+.row h3 {
     text-align: left;
 }
 
-.row01 p {
+.row p {
     text-align: left;
 }
 
@@ -195,6 +195,52 @@ main {
     border-radius: 4px;
 }
 
+.berlin {
+    width: 75%;
+    max-width: 75%;
+    height: auto;
+}
+
+/*
+! CSS ANIMATIONS
+*/
+
+@keyframes color-change {
+    0% {fill: #edc655;}
+    50% {fill: #fcffad;}
+    100% {fill: #f76414;}
+}
+
+.sun {
+    animation-duration: 4s;
+    animation-name: color-change;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+}
+
+@keyframes cloud-move {
+    from {transform: translate(0,50px);}
+    to {transform: translate(200px,50px);}
+}
+
+.cloud-front {
+    animation-duration: 30s;
+    animation-name: cloud-move;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+}
+
+@keyframes cloud-move-reverse {
+    from {transform: translate(446px,48px);}
+    to {transform: translate(100px, 48px);}
+}
+
+.cloud-back {
+    animation: 34s cloud-move-reverse infinite alternate linear;
+}
+
 .button {
     display: inline-block;
     background-color: #a67212;
@@ -203,7 +249,8 @@ main {
     padding: 10px;
     border-radius: 4px;
     border-bottom: 2px solid #845a0e;
-    transition: 0.2s opacity;
+    transition-duration: 0.4s;
+    transition-property: opacity;
 }
 
 .button:hover {
@@ -275,7 +322,7 @@ footer h2 {
         margin-bottom: .67em;
     }
 
-    .row01 {
+    .row {
         display: flex;
         justify-content: space-around;
     }
@@ -322,13 +369,17 @@ footer h2 {
         font-size: 20px;
     }
 
+    .logo {
+        max-width: 500px;
+    }
+
     .hero {
         max-width: 1000px;
         margin: 0 auto;
         padding: 0;
     }
 
-    .row01 {
+    .row {
         display: flex;
         justify-content: center;
     }
@@ -372,7 +423,7 @@ footer h2 {
         font-size: 24px;
     }
 
-    .row01{
+    .row{
         display: flex;
         justify-content: center;
     }
