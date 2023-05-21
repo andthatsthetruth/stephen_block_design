@@ -178,7 +178,7 @@ main {
     display: inline-block;
     padding: 25px;
     border-radius: 4px;
-    background-color: #821515;
+    background-color: #9ca4a6;
 }
 
 .view-project {
@@ -269,7 +269,6 @@ footer h2 {
     nav {
         width: auto;
         float: right;
-        margin-top: 75px;
     }
 
     #work h2 {
