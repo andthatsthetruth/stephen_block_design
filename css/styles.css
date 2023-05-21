@@ -91,7 +91,8 @@ header {
     margin: .625em;
     padding: .625em;
     border-bottom: 3px solid #c6cace;
-    text-align: center;
+    display: flex;
+    justify-content: center;
 }
 
 .logo {
@@ -119,7 +120,7 @@ nav ul li a {
 */
 
 main {
-    background-color:171616;
+    background-color: #171616;
     padding: 0.625em;
 }
 
@@ -261,7 +262,7 @@ footer h2 {
     }
 
     header {
-        text-align: unset;
+        text-align: center;
         padding: 20px 0 13px;
     }
     
