@@ -342,6 +342,23 @@ footer h2 {
         max-width: 450px;
     }
 
+    footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    footer .container {
+        width: 1000px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    footer h2 {
+        text-align: center;
+    }
+
     }
     
     /*
