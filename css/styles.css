@@ -424,8 +424,24 @@ footer h2 {
         align-items: flex-start;
     }
 
+    .contact-about {
+        width: 768px;
+        margin: 0 auto;
+    }
+
     footer h2 {
         text-align: center;
+    }
+
+    .skilltool {
+        max-width: 768px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .skilltool > div {
+        display: flex;
+        justify-content: space-around;
     }
 
     }
