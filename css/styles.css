@@ -353,15 +353,23 @@ footer h2 {
         max-width: 45%;
     }
 
-    .peregrine.img {
-        max-width: 450px;
-        text-align: center;
-        margin: unset;
-        margin: 0 auto;
-    }
-
     .container {
         margin: 0 18px;
+    }
+
+    .peregrine-img {
+        display: flex;
+        justify-content: center;
+        margin: 10px auto;
+    }
+
+    .peregrine-img picture {
+        display: flex;
+        justify-content: center;
+    }
+
+    .peregrine-img img {
+        min-width: 600px;
     }
 
     }
@@ -442,6 +450,16 @@ footer h2 {
     .skilltool > div {
         display: flex;
         justify-content: space-around;
+    }
+
+    .text {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .text p h3 h4 ol {
+        display: flex;
+        justify-content: center;
     }
 
     }
