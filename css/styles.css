@@ -462,6 +462,13 @@ footer h2 {
         justify-content: center;
     }
 
+    .toolsrole {
+        width: 90%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
     }
     
     /*
@@ -487,6 +494,31 @@ footer h2 {
 
     .project02 {
         max-width: 450px;
+    }
+
+    .peregrine-img {
+        display: flex;
+        justify-content: center;
+        margin: 10px auto;
+    }
+
+    .peregrine-img picture {
+        display: flex;
+        justify-content: center;
+    }
+
+    .peregrine-img img {
+        min-width: 50vmax;
+    }
+
+    .text {
+        width: 50%;
+        margin: 0 auto;
+    }
+
+    .text p h3 h4 ol {
+        display: flex;
+        justify-content: center;
     }
 
     }
