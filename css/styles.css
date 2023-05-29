@@ -7,14 +7,6 @@
 */
 
 /*
-Gray 100 = #c6cace
-Gray 200 = #9ca4a6
-Green Haze = #625D40
-Yellow Accent = #a67212
-Off Black = #171616
-/*
-
-/*
 ! Style rules for BODY. 
 */
 
@@ -60,7 +52,7 @@ h4 {
 }
 
 a {
-    color: #c6cace ;
+    color: #c6cace;
     text-decoration: none;
 }
 
@@ -124,23 +116,6 @@ main {
     padding: 0.625em;
 }
 
-.about {
-    text-align: center;
-}
-
-.about div {
-    text-align: left;
-}
-
-.peregrine-img img {
-    max-width: 300px;
-    margin: 0 35px;
-}
-
-.container-peregrine h2 {
-    color: #a67212
-}
-
 #portrait {
     max-width: 250px;
     border-radius: 4px;
@@ -155,7 +130,7 @@ main {
 }
 
 .row {
-    color:#171616;
+    color: #171616;
 }
 
 .row h3 {
@@ -164,6 +139,10 @@ main {
 
 .row p {
     text-align: left;
+}
+
+.center {
+    text-align: center;
 }
 
 .project01 {
@@ -206,9 +185,17 @@ main {
 */
 
 @keyframes color-change {
-    0% {fill: #edc655;}
-    50% {fill: #fcffad;}
-    100% {fill: #f76414;}
+    0% {
+        fill: #edc655;
+    }
+
+    50% {
+        fill: #fcffad;
+    }
+
+    100% {
+        fill: #f76414;
+    }
 }
 
 .sun {
@@ -220,8 +207,13 @@ main {
 }
 
 @keyframes cloud-move {
-    from {transform: translate(0,50px);}
-    to {transform: translate(200px,50px);}
+    from {
+        transform: translate(0, 50px);
+    }
+
+    to {
+        transform: translate(200px, 50px);
+    }
 }
 
 .cloud-front {
@@ -233,8 +225,13 @@ main {
 }
 
 @keyframes cloud-move-reverse {
-    from {transform: translate(446px,48px);}
-    to {transform: translate(100px, 48px);}
+    from {
+        transform: translate(446px, 48px);
+    }
+
+    to {
+        transform: translate(100px, 48px);
+    }
 }
 
 .cloud-back {
@@ -316,7 +313,7 @@ footer h2 {
     .hero p {
         margin: 0 18px;
     }
-    
+
     nav {
         width: auto;
         float: right;
@@ -357,30 +354,20 @@ footer h2 {
         margin: 0 18px;
     }
 
-    .peregrine-img {
-        display: flex;
-        justify-content: center;
-        margin: 10px auto;
-    }
+}
 
-    .peregrine-img picture {
-        display: flex;
-        justify-content: center;
-    }
-
-    .peregrine-img img {
-        min-width: 600px;
-    }
-
-    }
-    
-    /*
+/*
     !=================================
     !LARGE devices (1024px and larger)
     !=================================
     */
-    @media only screen and (min-width: 1024px) {
-    
+@media only screen and (min-width: 1024px) {
+
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
     body {
         font-size: 20px;
     }
@@ -402,39 +389,23 @@ footer h2 {
     .bio {
         max-width: 768px;
         margin-left: auto;
-        margin-right: auto;        
+        margin-right: auto;
     }
 
     .row {
         display: flex;
-        justify-content: center;
+        justify-content: space-around;
+
     }
 
+    /* Check flexbox for a way to add in the gap in between the items, and standardize the max width */
     .project01 {
         max-width: 450px;
-        margin-right: 70px;
+
     }
 
     .project02 {
         max-width: 450px;
-    }
-
-    footer {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    footer .container {
-        width: 1000px;
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-    }
-
-    .contact-about {
-        width: 768px;
-        margin: 0 auto;
     }
 
     footer h2 {
@@ -447,19 +418,9 @@ footer h2 {
         margin-right: auto;
     }
 
-    .skilltool > div {
+    .skilltool>div {
         display: flex;
         justify-content: space-around;
-    }
-
-    .text {
-        width: 90%;
-        margin: 0 auto;
-    }
-
-    .text p h3 h4 ol {
-        display: flex;
-        justify-content: center;
     }
 
     .toolsrole {
@@ -469,67 +430,24 @@ footer h2 {
         justify-content: space-evenly;
     }
 
+}
 
-
-    }
-    
-    /*
+/*
     !===================================
     !X-LARGE devices (1440px and larger)
     !===================================
     */
-    @media only screen and (min-width: 1440px) {
-    
+@media only screen and (min-width: 1440px) {
+
     body {
         font-size: 24px;
     }
 
-    .row{
-        display: flex;
-        justify-content: center;
-    }
+}
 
-    .project01 {
-        max-width: 450px;
-        margin-right: 70px;
-    }
-
-    .project02 {
-        max-width: 450px;
-    }
-
-    .peregrine-img {
-        display: flex;
-        justify-content: center;
-        margin: 10px auto;
-    }
-
-    .peregrine-img picture {
-        display: flex;
-        justify-content: center;
-    }
-
-    .peregrine-img img {
-        min-width: 50vmax;
-    }
-
-    .text {
-        width: 50%;
-        margin: 0 auto;
-    }
-
-    .text p h3 h4 ol {
-        display: flex;
-        justify-content: center;
-    }
-
-    }
-
-    /*
+/*
     !=====================================
     !ULTRAWIDE devices (1920px and larger)
     !=====================================
     */
-    @media only screen and (mid-width: 1920px) {
-    
-    }
+@media only screen and (mid-width: 1920px) {}
