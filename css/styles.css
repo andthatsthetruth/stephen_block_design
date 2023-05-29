@@ -1,9 +1,9 @@
 /*
 !    Name: Stephen Block
-!    Date: 05.23.2023
+!    Date: 05.29.2023
 !    File name: styles.css
-!    Task: 1.8
-!    Version: v2
+!    Task: 2.3
+!    Version: v1
 */
 
 /*
@@ -83,12 +83,52 @@ header {
     margin: .625em;
     padding: .625em;
     border-bottom: 3px solid #c6cace;
+}
+
+.header-container {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .logo {
-    max-width: 250px;
+    min-width: 250px;
+}
+
+.mob-wrapper {
+    display: block;
+}
+
+.mob-nav {
+    display: none;
+    position: absolute;
+    padding-top: 10px;
+}
+
+.nav-button {
+    display: block;
+    background-color: #a67212;
+    padding: 15px 30px;
+    margin-left: -100px;
+    text-align: center;
+}
+
+.round-top {
+    border-radius: 4px 4px 0 0;
+}
+
+.round-bottom {
+    border-radius: 0 0 4px 4px;
+}
+
+.mob-wrapper .nav-button {
+    color: #171616;
+    font-weight: 700;
+}
+
+/* nav for tablet/desktop hidden on mobile */
+nav {
+    display: none;
 }
 
 nav ul {
@@ -113,7 +153,7 @@ nav ul li a {
 
 main {
     background-color: #171616;
-    padding: 0.625em;
+    padding: 0 0.625em 0.625em 0.625em;
 }
 
 #portrait {
@@ -317,6 +357,11 @@ footer h2 {
     nav {
         width: auto;
         float: right;
+        display: block;
+    }
+
+    .mob-wrapper {
+        display: none;
     }
 
     #work h2 {
