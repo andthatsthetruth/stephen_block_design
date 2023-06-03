@@ -55,16 +55,20 @@ h4 {
 }
 
 a {
-  color: #c6cace;
+  color: #a67212;
   text-decoration: none;
 }
 
+li a:visited {
+  color: #a67212;
+}
+
 a:visited {
-  color: #c6cace;
+  color: #171616;
 }
 
 a:hover {
-  color: #a67212;
+  color: #c6cace;
   text-decoration: underline;
 }
 
@@ -233,7 +237,7 @@ main {
 .button {
   display: inline-block;
   background-color: #a67212;
-  color: #c6cace;
+  color: #171616;
   font-weight: 400;
   padding: 10px;
   border-radius: 4px;
@@ -245,7 +249,7 @@ main {
 .button:hover {
   opacity: 0.8;
   text-decoration: none;
-  color: #c6cace;
+  color: #171616;
 }
 
 .button:active {
@@ -284,6 +288,13 @@ footer h2 {
 
 #call {
   text-decoration: underline;
+}
+
+.socials {
+  background-color: #c6cace;
+  padding-top: 5px;
+  width: 180px;
+  border-radius: 4px;
 }
 
 /*
